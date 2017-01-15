@@ -15,4 +15,4 @@ with open('{}/{}'.format(home, CONFIG_PATH)) as conf_file:
         profile['selected'] = profile['name'] == CHOSEN_PROFILE
 
 with open('{}/{}'.format(home, CONFIG_PATH), 'w') as conf_file:
-    conf_file.write(json.dumps(config))
+    conf_file.write(json.dumps(config, indent=4, separators=(',', ': ')))
