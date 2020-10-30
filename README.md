@@ -1,5 +1,7 @@
 # Karabiner Elements profile switcher (Alfred Workflow)
 
+**CAUTION (DEPRECATED): I'm no longer maintaining this project. I'm no longer using multiple keyboards daily and generally experiment with Alfred replacements – check out https://raycast.com/. If you wish to take over this repo, contact me.**
+
 The fresh macOS Sierra rewrite of the original Karabiner, the [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements) qietly supports multiple profiles, which has been one of the core features, historically speaking. Although, as of now, you can define multiple profiles in the `~/.config/karabiner/karabiner.json` file, but you can't switch between them easily. This is an important features for people that regularly switch between internal / Apple keyboard and an external USB one, which usually have different layout, hence the need for 2+ profiles.
 
 Karabiner Elements listens for changes in `karabiner.json` config file, and there is a setting that specifies which profile is _currently active_ – `selected: true`. 
